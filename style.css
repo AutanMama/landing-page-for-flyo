@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Inria Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;700&family=Big+Shoulders+Display:wght@700&family=Inria+Serif:ital,wght@0,400;0,700;1,300;1,700&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+.container {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#menu-button {
+    display: none;
+}
+
+#menu-content a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+#menu-content a:hover {
+   background-color: #3065f7;
+   border-radius: 10px;
+   color: #fff;
+   
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    margin-left: 50%;
+    display: flex;
+    gap: 60px ;
+}
+p {
+    font-size: 20px;
+}
+
+#email {
+    width: 25%;
+    margin-right: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+}
+
+#button {
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3065F8;
+}
+
+#second-div {
+    display: flex;
+    margin-top: 15%;
+    gap: 30px;
+    align-items: center;
+}
+
+.container2 {
+    margin-top: 15%;
+    background-color: #F6F6FE;
+    align-items: center;
+    height: 46rem;
+}
+
+.container2-child {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 50px 0;
+    gap: 4rem;
+}
+
+.container3 {
+    margin-top: 15%;
+    background-color: #585989;
+    align-items: center;
+    height: 300px;
+    
+}
+.font-white {
+    color: #fff;
+}
+.font-size {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.font-sixe2 {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.container3-child {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 10%;
+    padding-top: 100px;
+    
+}
+.container3-child div{
+    width: 50%;
+}
+.container4 {
+    background-color: #070439;
+    height: 435px;
+    padding-top: 80px;
+}
+.container4-child {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.container4-child1 {
+    display: flex;
+    gap: 200px;
+    padding-top: 50px;
+}
+
+.container4-child1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container4-child1 p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.link {
+    margin-top: 20px;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: #AEE3FE;
+    font-size: 25px;
+}
+
+.left-pane {
+    width: 50%;
+}
+
+.google-img {
+    width: 100%;
+}
+
+.min-div {
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+   
+}
+
+.g-20 {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.rounded {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.bussines-img {
+    width: 80%;
+    background-color: #000;
+}
+
+#email2 {
+    width: 100%;
+    margin-right: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#button2 {
+    padding: 12px 20px;
+    width: 30%;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3065F8;
+    cursor: pointer;
+}
+
+.lab:hover {
+    color: #d61212;
+    
+}
+.las {
+    font-size: 25px;
+    padding: 0 5px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .wrapper {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    #menu-content {
+        display: none;
+        position: absolute;
+        top: 60px; 
+        right: 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        z-index: 1;
+    }
+
+    #menu-content.show-menu {
+        display: flex;
+    }
+
+    #menu-button {
+        display: block;
+        background-color: #3065F8;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .min-div {
+        width: 260px;
+        margin: auto;
+    }
+    .container2-child {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 2rem;
+        padding: 0 10px;
+    }
+
+    .left-pane {
+         width: 100%; 
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h1, .font-size {
+        font-size: 1.5rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .container3-child {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container3-child1 h1 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .container3-child div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4-child1 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .container4 {
+        height: auto;
+    }
+
+    #second-div {
+        width: 100%;
+        flex-direction:column-reverse;
+    }
+
+    .space-between {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .flex img {
+       width: 40%;
+    }
+
+    input {
+        width: 80%;
+    }
+    #button {
+        width: 50%;
+        margin: 1rem 0;
+    }
+
+    #button2 {
+        width: 60%;
+    }
+    #email, #email2 {
+        width: 80%; 
+        margin-top: 1rem;
+    }
+
+    /* .google-img {
+        width: 50%;
+    } */
+
+
+    .center {
+        text-align: center;
+    }
+
+    .container4-child1 p {
+        font-size: 15px;
+    }
+
+    .container4-child1 a {
+        font-size: 15px; 
+    }
+    .rounded {
+        height: auto;
+    }
+    
+}
